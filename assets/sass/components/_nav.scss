@@ -1,8 +1,10 @@
-.botonmenu{
 
-}
 
 @media screen and (min-width: $viewport-large) {
+    .botonmenu{
+        display: none;
+    }
+    
     .nav{
         height: 12vh;
         width: 100vw;
