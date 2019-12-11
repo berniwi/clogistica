@@ -50,22 +50,17 @@
                 width: 90%;
             }
         }
+
         .redes_contactos{
-
             text-align: center;
-
-            span{
-                text-align: right;
-                padding-left: 100px;
-                color: red;
+            .contact_red{
+                margin: 25px 0;
             }
-            
             img{
                 display: none;
             }
         }
     }
-
 }
    
    

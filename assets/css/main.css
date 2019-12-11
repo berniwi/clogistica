@@ -9881,30 +9881,32 @@ header {
     width: 97%;
   }
 }
+footer {
+  background-color: #1D1D1D;
+  text-align: center;
+  padding-top: 20px;
+}
+footer .conecta {
+  height: 10vh;
+  width: auto;
+}
+footer .mtt {
+  height: 12vh;
+  width: auto;
+}
+footer .corfo {
+  height: 10vh;
+  width: auto;
+}
+footer img {
+  padding: 0 20px;
+}
+
 @media screen and (min-width: 992px) {
-  footer {
-    background-color: #1D1D1D;
-    text-align: center;
-  }
   footer .logos {
     display: flex;
     justify-content: center;
     padding-top: 40px;
-  }
-  footer .logos .conecta {
-    height: 10vh;
-    width: auto;
-  }
-  footer .logos .mtt {
-    height: 12vh;
-    width: auto;
-  }
-  footer .logos .corfo {
-    height: 10vh;
-    width: auto;
-  }
-  footer .logos img {
-    padding: 0 20px;
   }
   footer .links {
     display: flex;
@@ -9917,28 +9919,8 @@ header {
   }
 }
 @media screen and (max-width: 992px) {
-  footer {
-    background-color: #1D1D1D;
-    text-align: center;
-  }
   footer img {
     margin: auto;
-    padding-top: 7vh;
-  }
-  footer .logos .conecta {
-    height: 15vh;
-    width: auto;
-  }
-  footer .logos .mtt {
-    height: 15vh;
-    width: auto;
-  }
-  footer .logos .corfo {
-    height: 10vh;
-    width: auto;
-  }
-  footer .logos img {
-    padding: 0 20px;
   }
   footer .links {
     justify-content: center;
@@ -10128,8 +10110,8 @@ header {
   .contacto .redes_contactos {
     text-align: center;
   }
-  .contacto .redes_contactos span {
-    text-align: right;
+  .contacto .redes_contactos .contact_red {
+    margin: 25px 0;
   }
   .contacto .redes_contactos img {
     display: none;
