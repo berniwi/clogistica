@@ -1,5 +1,5 @@
 .botonmenu{
-    display: none;
+
 }
 
 @media screen and (min-width: $viewport-large) {
@@ -44,10 +44,10 @@
 
 @media screen and (max-width: $viewport-large) {
     .nav{
-        height: 20vh;
-        width: 100vw;
+        height: 10vh;
+        width: 140vw;
         position: fixed;
-        padding: 10px 100px 0 30px ;
+        padding: 10px 100px 0 120px ;
         display: flex;
         justify-content: space-between;
 
@@ -55,6 +55,10 @@
         .redes{
             display: none;
         }   
+
+        .menu{
+            display: none;
+        }
         
         
         .logo{
