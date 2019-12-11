@@ -1,0 +1,62 @@
+.quienes_somos{
+    background-color: $azul1;
+    .contenido{
+        margin: 0 10%;
+        .parrafo{
+            p{
+                color: white;
+                padding-top: 20px;
+                line-height: 140%;
+             }
+        }
+    }
+}
+
+@media screen and (min-width: $viewport-ml) {
+
+    .quienes_somos{
+        .titulo{
+            padding: 15vh 0 0 11%;
+    
+            h2{
+                font-weight: 800;
+            }
+        }
+
+        .contenido{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .parrafo{
+                padding: 50px 0 140px 0;
+                width: 40%;
+            }    
+        }
+    }
+}
+
+@media screen and (max-width: $viewport-ml) {
+
+    .quienes_somos{
+        .titulo{
+            padding: 10vh 0 0 16vw;
+    
+            h2{
+                font-weight: 400;
+            }
+        }
+
+        .contenido{
+            .v_conecta{
+                width: 100vw;
+
+                iframe{
+                    padding: 40px 0;
+                    width: 97%;
+                }   
+            }
+        }
+    }
+}
+
+

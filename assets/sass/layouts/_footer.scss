@@ -1,0 +1,88 @@
+@media screen and (min-width: $viewport-ml) {
+    footer{
+        background-color: $negro1;
+        text-align: center;
+
+        .logos{
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+            .conecta{
+                height: 10vh;
+                width: auto;
+            }
+        
+            .mtt{
+                height: 12vh;
+                width: auto;
+            }
+        
+            .corfo{
+                height: 10vh;
+                width: auto;
+            }
+
+
+            img{
+                padding: 0 20px;
+            }
+        
+        }
+
+        .links
+        {
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            .ref{
+                display: inline;
+                font-size: $small;
+            }
+        }
+
+
+    }
+}
+
+
+@media screen and (max-width: $viewport-ml) {
+    footer{
+        background-color: $negro1;
+        text-align: center;
+
+        img{
+            margin: auto;
+            padding-top: 7vh;
+        }
+
+        .logos{
+            .conecta{
+                height: 15vh;
+                width: auto;
+            }
+            .mtt{
+                height: 15vh;
+                width: auto;
+            }
+        
+            .corfo{
+                height: 10vh;
+                width: auto;
+            }
+
+
+            img{
+                padding: 0 20px;
+            }
+        
+        }
+
+        .links{
+            justify-content: center;
+            padding-top: 50px;
+            .ref{
+                font-size: $small;
+            }
+        }
+    }
+}
