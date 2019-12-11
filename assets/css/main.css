@@ -9803,6 +9803,10 @@ a {
     width: 100%;
   }
 }
+.redes {
+  display: none;
+}
+
 header {
   height: 104vh;
   background-image: url("../img/imagenconecta1.png");
@@ -10083,8 +10087,8 @@ footer img {
 @media screen and (min-width: 1025px) {
   .contacto .formulario {
     padding-top: 15vh;
-    padding-left: 9%;
-    width: 55%;
+    padding-left: 30%;
+    width: 50%;
   }
   .contacto .redes_contactos {
     padding-top: 15vh;
@@ -10120,6 +10124,10 @@ footer img {
     display: none;
   }
 }
+.redes_contactos {
+  display: none;
+}
+
 .novedades p {
   margin-left: 10vw;
   width: 40%;

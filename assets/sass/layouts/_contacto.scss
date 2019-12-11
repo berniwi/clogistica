@@ -12,8 +12,9 @@
     .contacto{
         .formulario{
             padding-top: 15vh;
-            padding-left: 9%;
-            width: 55%;
+            //cambiar cuando estén las redes
+            padding-left: 30%;
+            width: 50%;
         }
     
         .redes_contactos{
@@ -63,7 +64,9 @@
     }
 }
    
-   
+.redes_contactos{
+    display: none;
+}
     
 
     
