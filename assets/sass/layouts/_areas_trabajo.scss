@@ -22,7 +22,7 @@
 @media screen and (min-width: $viewport-ml) {
     
     .areas_trabajo{
-        height: 100vh;
+        height: auto;
     
         .titulo{
             padding: 15vh 0 0 11%;    
@@ -32,7 +32,7 @@
         }
 
         .contenido{
-            padding: 8vh 9% 0 9%;
+            padding: 8vh 9% 10vh 9%;
             display: flex;
             justify-content: space-between;
 

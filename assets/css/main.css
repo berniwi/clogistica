@@ -9957,7 +9957,7 @@ footer img {
 
 @media screen and (min-width: 992px) {
   .areas_trabajo {
-    height: 100vh;
+    height: auto;
   }
   .areas_trabajo .titulo {
     padding: 15vh 0 0 11%;
@@ -9966,7 +9966,7 @@ footer img {
     font-weight: 800;
   }
   .areas_trabajo .contenido {
-    padding: 8vh 9% 0 9%;
+    padding: 8vh 9% 10vh 9%;
     display: flex;
     justify-content: space-between;
   }
