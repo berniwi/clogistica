@@ -1,7 +1,6 @@
 .quienes_somos{
     background-color: $azul1;
     .contenido{
-        margin: 0 10%;
         .parrafo{
             p{
                 color: white;
@@ -24,13 +23,22 @@
         }
 
         .contenido{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             .parrafo{
-                padding: 50px 0 140px 0;
-                width: 45%;
+                padding: 50px 5% 140px 5%;
+                width: 50%;
+                background-color: green;
             }    
+
+            .v_conecta{
+                width: 50%;
+                background-color: red;
+                padding-top: 10%;
+                padding-left: 10%;
+
+                iframe{
+                    width: 80%;
+                }
+            }
         }
     }
 }

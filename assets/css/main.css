@@ -9847,9 +9847,6 @@ header {
 .quienes_somos {
   background-color: #338BAE;
 }
-.quienes_somos .contenido {
-  margin: 0 10%;
-}
 .quienes_somos .contenido .parrafo p {
   color: white;
   padding-top: 20px;
@@ -9863,14 +9860,19 @@ header {
   .quienes_somos .titulo h2 {
     font-weight: 800;
   }
-  .quienes_somos .contenido {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   .quienes_somos .contenido .parrafo {
-    padding: 50px 0 140px 0;
-    width: 45%;
+    padding: 50px 5% 140px 5%;
+    width: 50%;
+    background-color: green;
+  }
+  .quienes_somos .contenido .v_conecta {
+    width: 50%;
+    background-color: red;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+  .quienes_somos .contenido .v_conecta iframe {
+    width: 80%;
   }
 }
 @media screen and (max-width: 992px) {
