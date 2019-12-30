@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+.novedades{
+    height: 100vh;
+    background-image: url("../img/fondo_noticias.jpg");
+    background-size: cover;
+}
+
+.novedad{
+    margin-left: 20%;
+    width: 60%;
+    height: 100vh;
+    background-color: $azul2;
+
+    .texto_nov{
+        width: 100%;
+    }
+}
+
+.nav_nov{
+    background-color: $rojo1;
+}

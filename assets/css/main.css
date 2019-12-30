@@ -10139,4 +10139,31 @@ footer img {
   height: 30vh;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.novedades {
+  height: 100vh;
+  background-image: url("../img/fondo_noticias.jpg");
+  background-size: cover;
+}
+
+.novedad {
+  margin-left: 20%;
+  width: 60%;
+  height: 100vh;
+  background-color: #6FB6D2;
+}
+.novedad .texto_nov {
+  width: 100%;
+}
+
+.nav_nov {
+  background-color: #E03E51;
+}
+
 /*# sourceMappingURL=main.css.map */
