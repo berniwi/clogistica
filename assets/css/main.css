@@ -10139,33 +10139,35 @@ footer img {
   height: 30vh;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-}
-
 .novedades {
-  height: 100vh;
   background-image: url("../img/fondo_noticias.jpg");
   background-size: cover;
 }
 
 .novedad {
-  margin-left: 20%;
-  width: 60%;
-  height: 100vh;
+  margin-left: 10%;
+  width: 80%;
   background-color: #6FB6D2;
+  padding-bottom: 20%;
+  text-align: center;
+}
+.novedad img {
+  margin-top: 15%;
+  width: 70%;
+  height: auto;
 }
 .novedad .texto_nov {
-  width: 100%;
+  display: flex;
+  text-align: left;
 }
 
 .nav_nov {
-  background-color: #FCC06B;
+  background-color: #E03E51;
   width: 105vw;
   padding-left: 5%;
+}
+.nav_nov li a {
+  color: white;
 }
 
 .seminario_ia_presentaciones {

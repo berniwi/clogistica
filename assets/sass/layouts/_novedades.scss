@@ -1,29 +1,34 @@
-*{
-    margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-}
-
 .novedades{
-    height: 100vh;
     background-image: url("../img/fondo_noticias.jpg");
     background-size: cover;
 }
 
 .novedad{
-    margin-left: 20%;
-    width: 60%;
-    height: 100vh;
+    margin-left: 10%;
+    width: 80%;
     background-color: $azul2;
+    padding-bottom: 20%;
+    text-align: center;
+    img{
+        margin-top: 15%;
+        width: 70%;
+        height: auto;
+    }
 
     .texto_nov{
-        width: 100%;
+        display: flex;
+        text-align: left;
     }
 }
 
 .nav_nov{
-    background-color: $amarillo2;
+    background-color: $rojo1;
     width: 105vw;
     padding-left: 5%;
+
+    li{
+        a{
+            color: white;
+        }
+    }
 }
