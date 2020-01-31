@@ -9,16 +9,22 @@
     background-color: $azul2;
     padding-bottom: 20%;
     text-align: center;
+
+    h1{
+        padding-top: 15%;
+    }
     img{
-        margin-top: 15%;
+        margin-top: 5%;
         width: 70%;
         height: auto;
     }
 
     .texto_nov{
         text-align: left;
-        margin-left: 40%;
-        margin-top: 10%;
+        margin: 10%;
+        p{
+            margin-top: 5%;
+        }
     }
 }
 
@@ -26,10 +32,13 @@
     background-color: $rojo1;
     width: 105vw;
     padding-left: 5%;
+}
 
-    li{
-        a{
-            color: white;
+@media screen and (max-width: $viewport-large) {
+    .novedad{
+        h1{
+            padding-top: 30%;
+            font-size: $large;
         }
     }
 }

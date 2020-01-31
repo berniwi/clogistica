@@ -10128,11 +10128,6 @@ footer img {
   display: none;
 }
 
-.novedades p {
-  margin-left: 10vw;
-  width: 40%;
-}
-
 .img_noticias {
   margin: 15vh;
   width: auto;
@@ -10151,14 +10146,20 @@ footer img {
   padding-bottom: 20%;
   text-align: center;
 }
+.novedad h1 {
+  padding-top: 15%;
+}
 .novedad img {
-  margin-top: 15%;
+  margin-top: 5%;
   width: 70%;
   height: auto;
 }
 .novedad .texto_nov {
   text-align: left;
-  margin-left: 10%;
+  margin: 10%;
+}
+.novedad .texto_nov p {
+  margin-top: 5%;
 }
 
 .nav_nov {
@@ -10166,10 +10167,13 @@ footer img {
   width: 105vw;
   padding-left: 5%;
 }
-.nav_nov li a {
-  color: white;
-}
 
+@media screen and (max-width: 1025px) {
+  .novedad h1 {
+    padding-top: 30%;
+    font-size: 18px;
+  }
+}
 .seminario_ia_presentaciones {
   background-image: url("../img/fondo_noticias.jpg");
   background-size: cover;
